@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/847f432c61.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="bg-white shadow-md">
+      <div
+        class="container mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <!-- Logo -->
+        <div class="text-2xl font-bold text-gray-800">
+          <img src="c2-assets/logo-header.png" />
+        </div>
+
+        <!-- Navigation Links (Hidden on small screens) -->
+        <ul class="hidden md:flex space-x-6 text-gray-700 text-lg">
+          <li><a href="#" class="hover:text-green-500">Product</a></li>
+          <li><a href="#" class="hover:text-green-500">Services</a></li>
+          <li><a href="#" class="hover:text-green-500">Contact Us</a></li>
+        </ul>
+
+        <!-- Right Section: Icons & Buttons -->
+        <div class="flex items-center space-x-4">
+          <!-- Icons -->
+          <i
+            class="fas fa-search text-gray-600 text-lg cursor-pointer hover:text-blue-500"
+          ></i>
+          <i
+            class="fas fa-shopping-cart text-gray-600 text-lg cursor-pointer hover:text-blue-500"
+          ></i>
+
+          <!-- Login & Register Buttons -->
+          <button
+            class="px-4 py-2 bg-white-200 text-gray-800 rounded-md hover:bg-gray-300 transition"
+          >
+            Login
+          </button>
+          <button
+            class="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-blue-600 transition"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!--freshness-->
+    <h1 class="text-3xl text-center">
+      Freshness <span class="text-green-500">You Can Count</span> On, Prices
+      You’ll Love!
+    </h1>
+    <p class="text-center">
+      Shop your daily essentials at unbeatable prices. From fresh produce to
+      pantry staples, we’ve got you covered every day!
+    </p>
+    <img
+      class="flex justify-center items-center"
+      src="c2-assets/hero-vegetables.png"
+      alt="hero-vegetables"
+    />
+  </body>
+</html>
